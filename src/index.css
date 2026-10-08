@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+.page {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+.site-header {
+  padding: 32px 0 20px;
+  text-align: center;
+}
+.site-header h1 {
+  margin-bottom: 8px;
+}
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: white;
+  border: 1px solid #d8dee9;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.card h3 {
+  margin-top: 0;
+}
+.passed {
+  font-weight: bold;
+}
+.failed {
+  font-weight: bold;
+}
+.site-footer {
+  padding: 24px 0 32px;
+  text-align: center;
+  font-weight: bold;
+}
